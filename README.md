@@ -1,5 +1,5 @@
 # php_hei_m2n
-php 任意精度、任意进制数转换
+php 任意精度整数、任意进制数转换
 
 	$t = microtime(1);
 
