@@ -1,5 +1,5 @@
 # php_hei_m2n
-php 任意进制数转换函数 支持大数字
+php 任意精度、任意进制数转换
 
 	$t = microtime(1);
 
