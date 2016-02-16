@@ -1,5 +1,5 @@
-# php_hei_strnum
-php 任意进制数转换函数 支持特大数据
+# php_hei_m2n
+php 任意进制数转换函数 支持大数字
 
 	$t = microtime(1);
 
