@@ -64,3 +64,5 @@ function hei_m2n_getIntFormStr($str, &$m2n){
 function hei_m2n_getStrFormInt($int, &$m2n){
 	return substr($m2n['slist'], $int, 1);
 }
+
+
