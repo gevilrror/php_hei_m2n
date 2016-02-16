@@ -4,10 +4,10 @@ php 任意进制数转换函数 支持大数字
 	$t = microtime(1);
 
 	for ($i=0; $i < 10000; $i++) {
-		$m2n_convert = hei_m2n(array('mvalue'=>'100000000000000000000000000000062','m'=>10,'n'=>64));
+		$m2n_convert = hei_m2n(array('mvalue'=>'100000000000000000000000000000062','m'=>10,'n'=>64), true);
 	}
 
-	var_dump(microtime(1)-$t,$m2n_convert);
+	var_dump(microtime(1) - $t, $m2n_convert);
 
 
 	// float(2.9181671142578)
