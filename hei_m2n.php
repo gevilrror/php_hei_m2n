@@ -11,7 +11,7 @@
 // 	'slist' => '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz|~',
 // );
 
-function hei_m2n($m2n){
+function hei_m2n($m2n, $return_obj = false){
 
 	if (!isset($m2n['slist']))
 		$m2n['slist'] = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz|~';
@@ -31,7 +31,7 @@ function hei_m2n($m2n){
 	$m2n['mvalue'] = $mvalue;
 	$m2n['nvalue'] = $nvalue;
 
-	return $m2n;
+	return $return_obj ? $m2n : $nvalue;
 }
 
 function hei_m2n_rmd(&$m2n){
